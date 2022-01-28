@@ -2,7 +2,7 @@
 
 # Cで整数を5バイトに押し込む簡単なお仕事
 
-今まで[Go](https://qiita.com/saliton/items/76781d1462bf04db7557), [Rust](https://qiita.com/saliton/items/07c6ccbaea1af8ff9737)とやってきましたが、処理効率を考えるとCと比較しないわけにはいきません。そこでCでも同様のことをやってみました。
+今まで[Go](https://www.soliton-cyber.com/blog/go-uint-40), [Rust](https://www.soliton-cyber.com/blog/rust-uint-40)とやってきましたが、処理効率を考えるとCと比較しないわけにはいきません。そこでCでも同様のことをやってみました。
 
 ## 64bit整数の8バイト配列化
 
