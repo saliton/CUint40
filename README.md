@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Soliton-Analytics-Team/CUint40/blob/main/CUint40.ipynb)
+
 # Cで整数を5バイトに押し込む簡単なお仕事
 
 ビッグデータを処理するような場合、データの読み込みが律速になることが多いです。その場合、データのストレージ上のサイズが小さくなると読み込み時間が減り、全体の処理時間が半分になったりします。そんな時、整数が40bitで十分ならば、40bitで保持したいですね。というわけで、今まで[Go](https://www.soliton-cyber.com/blog/go-uint-40), [Rust](https://www.soliton-cyber.com/blog/rust-uint-40)とやってきましたが、処理効率を考えるとCと比較しないわけにはいきません。そこでCでも同様のことをやってみました。比較のため、clangとgccの両方を試します。
